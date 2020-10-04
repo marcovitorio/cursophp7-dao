@@ -2,7 +2,7 @@
 
 require_once("config.php");
 
-$sql = new Sql();
+$sql = new sql();
 
 $usuarios = $sql->select("SELECT * FROM tb_usuarios");
 
